@@ -543,8 +543,12 @@ ol {
 }
 
 .modal-close-btn {
-
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border-radius: 4px;
 }
 
-.modal-close-btn-icon
+.modal-close-btn-icon {
+}
 /* #endregion modal */
