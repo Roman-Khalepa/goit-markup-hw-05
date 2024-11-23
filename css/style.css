@@ -580,6 +580,7 @@ ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 16px;
 }
 
 .review-form {
@@ -587,14 +588,33 @@ ol {
 }
 
 .review-form-field-vrapper {
-
+margin-bottom: 8px;
 }
 
 .review-form-field-lable {
-
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
-.review-form-checkbox-wrapper {
+.review-form-input {
+  height: 40px;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    padding-left: 38px;
+      font-size: 12px;
+      line-height: 1.17;
+      letter-spacing: 0.04em;
+      color: #2e2f42;
+}
+
+
+.review-form-checkbox-vrapper {
 
 }
 
@@ -607,6 +627,6 @@ ol {
 }
 
 .review-form-submit-btn {
-  
+
 }
 /* #endregion modal */
