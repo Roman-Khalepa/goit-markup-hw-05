@@ -508,21 +508,61 @@
         </p>
         <form class="review-form">
           <div class="review-form-field-vrapper">
-            <label class="review-form-field-lable" for=""></label>
-            <input class="review-form-input" type="text" />
+            <label class="review-form-field-lable" for="user-name">Name</label>
+            <input
+              class="review-form-input"
+              id="user-name"
+              name="user-name"
+              type="text"
+            />
           </div>
           <div class="review-form-field-vrapper">
-            <label class="review-form-field-lable" for=""></label>
-            <input class="review-form-input" type="text" />
+            <label class="review-form-field-lable" for="user-phone"
+              >Phone</label
+            >
+            <input
+              class="review-form-input"
+              id="user-phone"
+              name="user-phone"
+              type="text"
+            />
           </div>
           <div class="review-form-field-vrapper">
-            <label class="review-form-field-lable" for=""></label>
-            <input class="review-form-input" type="text" />
+            <label class="review-form-field-lable" for="user-email"
+              >Email</label
+            >
+            <input
+              class="review-form-input"
+              id="user-email"
+              name="user-email"
+              type="text"
+            />
           </div>
           <div class="review-form-field-vrapper">
-            <label class="review-form-field-lable" for=""></label>
-            <textarea class="review-form-comment" name="" id=""></textarea>
+            <label class="review-form-field-lable" for="user-comment"
+              >Comment</label
+            >
+            <textarea
+              class="review-form-comment"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
+          <div class="review-form-checkbox-wrapper">
+            <input
+              class="review-form-checkbox"
+              id="privacy-policy"
+              name="privacy-policy"
+              type="checkbox"
+              value="true"
+            />
+            <label class="review-form-checkbox-label" for="privacy-policy">
+              I accept the terms and conditions of the
+              <a class="review-form-policy-link" href="">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="review-form-submit-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
