@@ -547,7 +547,7 @@ ol {
   position: absolute;
   top: 24px;
   right: 24px;
-  border-radius: 100%;
+  border-radius: 50%;
   width: 24px;
   height: 24px;
   display: flex;
@@ -564,7 +564,8 @@ ol {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   fill: #fff;
-  background-color: #404bbf
+  background-color: #404bbf;
+  border: none;
 }
 
 .modal-close-icon {
