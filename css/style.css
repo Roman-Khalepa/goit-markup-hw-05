@@ -522,8 +522,6 @@ ol {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .modal {
   position: absolute;
   top: 50%;
@@ -569,26 +567,23 @@ ol {
 }
 
 .modal-close-icon {
-  
 }
 
-
 .modal-slogan {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 16px;
 }
 
 .review-form {
-
 }
 
 .review-form-field-vrapper {
-margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .review-form-field-lable {
@@ -605,28 +600,45 @@ margin-bottom: 8px;
   width: 100%;
   background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    padding-left: 38px;
-      font-size: 12px;
-      line-height: 1.17;
-      letter-spacing: 0.04em;
-      color: #2e2f42;
+  border-radius: 4px;
+  padding-left: 38px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.review-form-input:focus {
+  border-color: #4d5ae5;
+  outline: none;
+}
+
+.review-form-input-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+  fill: #2e2f42;
+}
+
+.review-form-input:focus + .review-form-input-icon {
+  fill: #4d5ae5;
+}
+
+.review-form-input-wrapper {
+  position: relative;
+}
 
 .review-form-checkbox-vrapper {
-
 }
 
 .review-form-checkbox {
-
 }
 
 .review-form-checkbox-label {
-
 }
 
 .review-form-submit-btn {
-
 }
 /* #endregion modal */
