@@ -586,7 +586,7 @@ ol {
 }
 
 .modal-close-icon {
-  /* fill: #2e2f42; */
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-slogan {
@@ -712,7 +712,7 @@ ol {
   + .review-form-checkbox-label
   > .review-form-custom-checkbox {
   background-color: #404bbf;
-  border-radius: 2px;
+  /* border-radius: 2px; */
   fill: #f4f4fd;
   border: none;
 }
