@@ -702,7 +702,7 @@ ol {
   background-color: #404bbf;
   border-radius: 2px;
   fill: #f4f4fd;
-  border: 1px solid #404bbf;
+  border: none;
 }
 
 .review-form-checkbox:focus
