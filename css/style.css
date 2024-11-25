@@ -4,6 +4,16 @@ body {
   color: #434455;
   font-size: 16px;
 }
+
+/* .visually-hidden {
+  position: absolute;
+  width: 1px;
+  width: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+} */
+
 img {
   display: block;
 }
@@ -634,9 +644,7 @@ ol {
 }
 
 .review-form-checkbox-vrapper {
-}
-
-.review-form-checkbox {
+  margin-bottom: 24px;
 }
 
 .review-form-field-textarea-vrapper {
@@ -664,13 +672,65 @@ ol {
 }
 
 .review-form-comment:focus {
-border-color: #4d5ae5;
+  border-color: #4d5ae5;
   outline: none;
 }
 
+.review-form-checkbox {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
+.review-form-custom-checkbox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  cursor: pointer;
+  fill: transparent;
+  margin-right: 8px;
+}
+
+.review-form-checkbox-icon {
+}
+
+.review-form-checkbox:checked
+  + .review-form-checkbox-label
+  > .review-form-custom-checkbox {
+  background-color: #404bbf;
+  border-radius: 2px;
+  fill: #f4f4fd;
+  border: 1px solid #404bbf;
+}
+
+.review-form-checkbox:focus
+  + .review-form-checkbox-label
+  > .review-form-custom-checkbox {
+    border: 1px solid #404bbf
+}
+
 .review-form-checkbox-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.review-form-policy-link {
+  line-height: 1.33333;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
 
 .review-form-submit-btn {
 }
+
 /* #endregion modal */
