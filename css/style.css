@@ -707,9 +707,7 @@ ol {
 .review-form-checkbox-icon {
 }
 
-.review-form-checkbox:checked {
-  border: none;
-}
+
 
 .review-form-checkbox:checked
   + .review-form-checkbox-label
@@ -719,11 +717,11 @@ ol {
   border: none;
 }
 
-.review-form-checkbox:focus
+/* .review-form-checkbox:focus
   + .review-form-checkbox-label
   > .review-form-custom-checkbox {
   border: 1px solid #404bbf;
-}
+} */
 
 .review-form-checkbox-label {
   font-size: 12px;
