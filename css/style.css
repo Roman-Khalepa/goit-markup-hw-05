@@ -531,6 +531,19 @@ ol {
   display: flex;
   gap: 24px;
 }
+
+.subscribe-footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
 /* #endregion footer */
 
 /* #region modal */
