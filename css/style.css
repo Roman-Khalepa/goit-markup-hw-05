@@ -517,6 +517,11 @@ ol {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+.subscribe-slogan {
+  margin-bottom: 16px;
+  
+}
 /* #endregion footer */
 
 /* #region modal */
